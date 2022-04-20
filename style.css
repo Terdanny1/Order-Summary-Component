@@ -25,13 +25,14 @@ body {
   top: 10%;
 }
 .image {
-  border-radius: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
   width: 350px;
   height: 150px;
 }
 .text-container {
-    text-align: center;
-    margin-top: 40px;
+  text-align: center;
+  margin-top: 40px;
 }
 .text-container h1 {
   color: hsl(223, 47%, 23%);
@@ -44,4 +45,34 @@ body {
   color: hsl(224, 23%, 55%);
   padding: 0 auto;
   margin: 0 auto;
+  font-size: 16px;
+}
+.float-container {
+  display: flex;
+  padding: 35px;
+  gap: 20px;
+  width: 150x;
+  height: 40px;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: hsl(229, 100%, 97%);
+  border-radius: 10px;
+  width: 300%;
+  height: 80px;
+}
+.box .span-plan p{
+    width: 100px;
+
+}
+.box .span-plan p span{
+    font-weight: bold;
+    color: hsl(223, 47%, 23%);
+}
+.box a{
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    font-size: 12px;
 }
