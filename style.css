@@ -1,0 +1,47 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Red Hat Display", sans-serif;
+  box-sizing: border-box;
+}
+.image-background {
+  position: relative;
+  width: 100%;
+}
+.container {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+  margin: 0 auto;
+  width: 350px;
+  height: 580px;
+  position: absolute;
+  top: 80px;
+  left: 37%;
+}
+.image-container {
+  border-radius: 10px;
+  margin: 0 auto;
+  width: 350px;
+  height: 150px;
+  top: 10%;
+}
+.image {
+  border-radius: 10px;
+  width: 350px;
+  height: 150px;
+}
+.text-container {
+    text-align: center;
+    margin-top: 40px;
+}
+.text-container h1 {
+  color: hsl(223, 47%, 23%);
+  margin: 0 auto;
+  width: 300px;
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+}
+.text-container p {
+  color: hsl(224, 23%, 55%);
+  padding: 0 auto;
+  margin: 0 auto;
+}
