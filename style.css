@@ -51,7 +51,6 @@ body {
   display: flex;
   padding: 35px;
   gap: 20px;
-  width: 150x;
   height: 40px;
 }
 .box {
@@ -60,8 +59,11 @@ body {
   align-items: center;
   background-color: hsl(229, 100%, 97%);
   border-radius: 10px;
-  width: 300%;
+  width: 100%;
   height: 80px;
+}
+.box .span-plan{
+    width: px;
 }
 .box .span-plan p{
     width: 100px;
@@ -73,6 +75,38 @@ body {
 }
 .box a{
     color: hsl(245, 75%, 52%);
-    font-weight: bold;
+    font-weight: 900;
     font-size: 12px;
+}
+.box .span-plan p {
+    padding-right: 60px;
+    font-size: 16px;
+}
+.box .span-plan .year{
+    color: hsl(224, 23%, 55%);
+    font-weight: normal;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+.rec{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 8px;
+    width: 80%;
+    height: 39px;
+    position:absolute;
+    bottom: 15%;
+    box-shadow: 0 15px 30px hsl(231, 11%, 75%);
+}
+.rec p{
+    color:  hsl(225, 100%, 98%);
+    font-weight: bold;
+    padding: 3.8%;
+}
+.order{
+    color: hsl(224, 23%, 55%);
+    font-weight: bold;
+    position: absolute;
+    font-size: 12px;
+    bottom: 15%;
+
 }
