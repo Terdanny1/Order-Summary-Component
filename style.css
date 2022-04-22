@@ -77,6 +77,11 @@ body {
     color: hsl(245, 75%, 52%);
     font-weight: 900;
     font-size: 12px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.box a:hover{
+  color: hsl(224, 41%, 53%);
 }
 .box .span-plan p {
     padding-right: 60px;
@@ -97,16 +102,27 @@ body {
     bottom: 15%;
     box-shadow: 0 15px 30px hsl(231, 11%, 75%);
 }
+.rec:hover{
+  background-color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
 .rec p{
     color:  hsl(225, 100%, 98%);
     font-weight: bold;
     padding: 3.8%;
+    display: inline-block;
 }
 .order{
     color: hsl(224, 23%, 55%);
     font-weight: bold;
+    width: 40%;
     position: absolute;
     font-size: 12px;
-    bottom: 15%;
-
-}
+    bottom: 5%;
+    right: 5%;
+    left: 5%;
+  }
+  .order:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+  }
